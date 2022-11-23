@@ -12,9 +12,11 @@ public class CreateNew {
 		Screen.editedText = new JTextArea();
 		
 		Screen.ironiType = new JComboBox();
+		Screen.shitpostingList = new JComboBox();
 		
 		Screen.convert = new JButton();
 		Screen.copy = new JButton();
+		Screen.addShitpost = new JButton();
 	}
 
 }
