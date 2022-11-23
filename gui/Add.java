@@ -11,6 +11,8 @@ public class Add {
 		frame.add(Screen.ironiType);
 		frame.add(Screen.convert);
 		frame.add(Screen.copy);
+		frame.add(Screen.shitpostingList);
+		frame.add(Screen.addShitpost);
 	}
 
 }
