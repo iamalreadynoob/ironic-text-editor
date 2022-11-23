@@ -70,19 +70,20 @@ public class Buttons {
 				String copied = Screen.editedText.getText();
 				StringSelection selection = new StringSelection(copied);
 				Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-				clipboard.setContents(selection, null);
+				clipboard.setContents(selection, null);				
 				
-				
-				try
-				{
-					Screen.editedText.setText("copied!!!");
-					Thread thread = new Thread();
-					thread.sleep(2000);
-					Screen.editedText.setText(copied);
-					
-				}catch(Exception we) {};
-				
-				
+			}
+			
+	});
+		
+		Screen.addShitpost.addActionListener(new ActionListener()
+		{
+
+			@Override
+			public void actionPerformed(ActionEvent e) 
+			{
+		
+				Screen.editedText.setText(Screen.editedText.getText() + " " + Screen.shitpostingList.getSelectedItem().toString());
 				
 			}
 			
