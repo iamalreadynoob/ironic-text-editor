@@ -11,8 +11,8 @@ public class Screen extends JFrame
 {
 	
 	protected static JTextArea plainText, editedText;
-	protected static JComboBox ironiType;
-	protected static JButton convert, copy;
+	protected static JComboBox ironiType, shitpostingList;
+	protected static JButton convert, copy, addShitpost;
 	
 	public Screen()
 	{
