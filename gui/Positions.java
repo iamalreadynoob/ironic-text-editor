@@ -39,6 +39,25 @@ public class Positions {
 		Screen.copy.setForeground(Color.RED);
 		Screen.copy.setText("copy");
 		
+		Screen.shitpostingList.addItem("");
+		Screen.shitpostingList.addItem("31");
+		Screen.shitpostingList.addItem("bane");
+		Screen.shitpostingList.addItem("Konya");
+		Screen.shitpostingList.addItem("napim");
+		Screen.shitpostingList.addItem("sane");
+		Screen.shitpostingList.addItem("sil knk");
+		Screen.shitpostingList.addItem("sj");
+		Screen.shitpostingList.addItem("Ohio");
+		Screen.shitpostingList.addItem("xD");
+		Screen.shitpostingList.addItem("za");
+		
+		Screen.shitpostingList.setBounds(10, 130, 100, 30);
+		
+		Screen.addShitpost.setBounds(140, 130, 100, 30);
+		Screen.addShitpost.setBackground(Color.GREEN.darker());
+		Screen.addShitpost.setForeground(Color.ORANGE.brighter());
+		Screen.addShitpost.setText("add");
+		
 	}
 
 }
